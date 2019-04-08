@@ -1,0 +1,23 @@
+body {
+  padding: 10px;
+  font: 14px "Helvetica", Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  border: 1px #AAA solid;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.container h1 {
+  color: #444;
+}
+
+.container p {
+  color: #444;
+}
