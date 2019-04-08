@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUD - Playground</title>
+
+    <%- include('../assets/includes/header'); %>
+  </head>
+  <body>
+    <div class="container">
+      <%- include('../assets/includes/nav-top'); %>
+
+      <h2>Lista de Ususarios</h2>
+      <div class="bottons">
+        <a href="users/add" class="novo badge badge-success"><i class="fas fa-user-plus"></i> Novo</a>
+      </div>
+      <div class="users">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Email</th>
+              <th scope="col">Nascimento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Daniele Freitas</td>
+              <td>dani@gmail.com</td>
+              <td>22/03/1985</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Flavia Dias</td>
+              <td>fafa@gmail.com</td>
+              <td>10/10/1988</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Laura Martins</td>
+              <td>laurinha@gmail.com</td>
+              <td>18/07/1990</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
